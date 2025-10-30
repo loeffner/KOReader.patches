@@ -45,7 +45,7 @@ Attention: If you are using a different localization than english, you will have
 <sub>2-disable-listview-progress-string</sub><br />
 <sup>**Before:** There is a string above the progress bar indicating the reading status. **After:** Removed.</sup>
 
-### `2-limit-listview-tags.lua`
+### [🞂 2-pt-limit-tags.lua](project-title/2-pt-limit-tags.lua)
 
 Limit the number of tags displayed under books in list view.
 
@@ -53,7 +53,7 @@ Limit the number of tags displayed under books in list view.
 |--------|-------|
 | <a href="resources/tags_limit_vanilla.png"><img src="resources/tags_limit_vanilla.png" width="300px"></a> | <a href="resources/tags_limit_patched.png"><img src="resources/tags_limit_patched.png" width="300px"></a> |
 
-<sub>2-limit-listview-tags</sub><br />
+<sub>2-pt-limit-tags</sub><br />
 <sup>**Before:** An unlimited number of tags is displayed. **After:** The number of tags is limited (here: to 3).</sup>
 
 ### `2-disable-mosaicview-folder-nbitems-overlay.lua`
