@@ -20,6 +20,7 @@ See the [KOReader documentation](https://koreader.rocks/user_guide/#L2-userpatch
 ## Project: Title Patches
 
 ### [🞂 2-pt-modify-font-sizes.lua](project-title/2-pt-modify-font-sizes.lua)
+Requires Project:Title v3.5
 
 Customize font sizes for titles, authors, and metadata in list view. \
 I use this patch to disable the auto-sizing and make the strings look more uniform
@@ -46,6 +47,7 @@ Attention: If you are using a different localization than english (or german), y
 <sup>**Before:** There is a string above the progress bar indicating the reading status. **After:** Removed.</sup>
 
 ### [🞂 2-pt-limit-tags.lua](project-title/2-pt-limit-tags.lua)
+Requires Project:Title v3.5
 
 Limit the number of tags displayed under books in list view.
 
@@ -68,6 +70,7 @@ Removes the item count from folder overlays in Cover Grid view.
 <sup>**Before:** The number of subdirectories and files is displayed as an overlay at the bottom of the foldercover. **After:** Removed.</sup>
 
 ### [🞂 2-pt-modify-item-limits.lua](project-title/2-pt-modify-item-limits.lua)
+Requires Project:Title v3.5
 
 Customize the maximum number of items displayed per page.
 
@@ -80,6 +83,7 @@ Customize the maximum number of items displayed per page.
 <sup>**Before:** The maximum amount of items on a page is limited. **After:** The limit is raised.</sup>
 
 ### [🞂 2-pt-modify-progressbar-max-width.lua](project-title/2-pt-modify-progressbar-max-width.lua)
+Requires Project:Title v3.5
 
 Increase the maximum progress bar width for longer books.
 If your display settings allow for more space, you can de-/increase the maximum width of the progress bars.
