@@ -17,11 +17,9 @@ See the [KOReader documentation](https://koreader.rocks/user_guide/#L2-userpatch
    - You can see the list and status of your user patches and enable/disable them in `Patch Management`.
 
 
-## Available Patches
+## Project: Title Patches
 
-### Project: Title Patches
-
-#### `2-modify-font-sizes.lua`
+### `2-modify-font-sizes.lua`
 
 Customize font sizes for titles, authors, and metadata in list view. \
 I use this patch to disable the auto-sizing and make the strings look more uniform
@@ -35,7 +33,7 @@ by setting maximum and minimum font sizes to the same value.
 <sub>2-modify-font-sizes</sub><br />
 <sup>**Before:** The directory strings are of varying font sizes. **After:** The directory strings are uniform. The limits for maximum/minimum font size are customizable.</sup>
 
-#### `2-disable-listview-progress-string.lua`
+### `2-disable-listview-progress-string.lua`
 
 Removes the reading status text (New/Reading/Finished/On hold) from list view.
 Attention: If you are using a different localization than english, you will have to adapt the patch and and the strings in your language.
@@ -47,7 +45,7 @@ Attention: If you are using a different localization than english, you will have
 <sub>2-disable-listview-progress-string</sub><br />
 <sup>**Before:** There is a string above the progress bar indicating the reading status. **After:** Removed.</sup>
 
-#### `2-limit-listview-tags.lua`
+### `2-limit-listview-tags.lua`
 
 Limit the number of tags displayed under books in list view.
 
@@ -58,7 +56,7 @@ Limit the number of tags displayed under books in list view.
 <sub>2-limit-listview-tags</sub><br />
 <sup>**Before:** An unlimited number of tags is displayed. **After:** The number of tags is limited (here: to 3).</sup>
 
-#### `2-disable-mosaicview-folder-nbitems-overlay.lua`
+### `2-disable-mosaicview-folder-nbitems-overlay.lua`
 
 Removes the item count from folder overlays in Cover Grid view.
 
@@ -69,7 +67,7 @@ Removes the item count from folder overlays in Cover Grid view.
 <sub>2-disable-mosaicview-folder-nbitems-overlay</sub><br />
 <sup>**Before:** The number of subdirectories and files is displayed as an overlay at the bottom of the foldercover. **After:** Removed.</sup>
 
-#### `2-modify-item-limits.lua`
+### `2-modify-item-limits.lua`
 
 Customize the maximum number of items displayed per page.
 
@@ -81,7 +79,7 @@ Customize the maximum number of items displayed per page.
 <sub>2-modify-item-limits</sub><br />
 <sup>**Before:** The maximum amount of items on a page is limited. **After:** The limit is raised.</sup>
 
-#### `2-modify-progressbar-max-width.lua`
+### [🞂 2-pt-modify-progressbar-max-width.lua](project-title/2-pt-modify-progressbar-max-width.lua)
 
 Increase the maximum progress bar width for longer books.
 If your display settings allow for more space, you can de-/increase the maximum width of the progress bars.
@@ -90,7 +88,7 @@ If your display settings allow for more space, you can de-/increase the maximum 
 |--------|-------|
 | <a href="resources/progressbar_vanilla.png"><img src="resources/progressbar_vanilla.png" width="300px"></a> | <a href="resources/progressbar_patched.png"><img src="resources/progressbar_patched.png" width="300px"></a> |
 
-<sub>2-modify-progressbar-max-width</sub><br />
+<sub>2-pt-modify-progressbar-max-width</sub><br />
 <sup>**Before:** The progressbar is limited to 235px/705 pages. **After:** The limit is raised.</sup>
 
 ## License
