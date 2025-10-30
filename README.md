@@ -19,7 +19,7 @@ See the [KOReader documentation](https://koreader.rocks/user_guide/#L2-userpatch
 
 ## Project: Title Patches
 
-### `2-modify-font-sizes.lua`
+### [🞂 2-pt-modify-font-sizes.lua](project-title/2-pt-modify-font-sizes.lua)
 
 Customize font sizes for titles, authors, and metadata in list view. \
 I use this patch to disable the auto-sizing and make the strings look more uniform
@@ -30,7 +30,7 @@ by setting maximum and minimum font sizes to the same value.
 | <a href="resources/fontsize_vanilla_grid.png"><img src="resources/fontsize_vanilla_grid.png" width="300px"></a> | <a href="resources/fontsize_patched_grid.png"><img src="resources/fontsize_patched_grid.png" width="300px"></a> |
 | <a href="resources/fontsize_vanilla_list.png"><img src="resources/fontsize_vanilla_list.png" width="300px"></a> | <a href="resources/fontsize_patched_list.png"><img src="resources/fontsize_patched_list.png" width="300px"></a> |
 
-<sub>2-modify-font-sizes</sub><br />
+<sub>2-pt-modify-font-sizes</sub><br />
 <sup>**Before:** The directory strings are of varying font sizes. **After:** The directory strings are uniform. The limits for maximum/minimum font size are customizable.</sup>
 
 ### `2-disable-listview-progress-string.lua`
