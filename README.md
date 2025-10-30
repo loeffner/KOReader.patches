@@ -33,16 +33,16 @@ by setting maximum and minimum font sizes to the same value.
 <sub>2-pt-modify-font-sizes</sub><br />
 <sup>**Before:** The directory strings are of varying font sizes. **After:** The directory strings are uniform. The limits for maximum/minimum font size are customizable.</sup>
 
-### `2-disable-listview-progress-string.lua`
+### [🞂 2-pt-disable-progress-string.lua](project-title/2-pt-disable-progress-string.lua)
 
 Removes the reading status text (New/Reading/Finished/On hold) from list view.
-Attention: If you are using a different localization than english, you will have to adapt the patch and and the strings in your language.
+Attention: If you are using a different localization than english (or german), you will have to adapt the patch and add the strings in your language.
 
 | Before | After |
 |--------|-------|
 | <a href="resources/progress_string_vanilla.png"><img src="resources/progress_string_vanilla.png" width="300px"></a> | <a href="resources/progress_string_patched.png"><img src="resources/progress_string_patched.png" width="300px"></a> |
 
-<sub>2-disable-listview-progress-string</sub><br />
+<sub>2-pt-disable-progress-string</sub><br />
 <sup>**Before:** There is a string above the progress bar indicating the reading status. **After:** Removed.</sup>
 
 ### [🞂 2-pt-limit-tags.lua](project-title/2-pt-limit-tags.lua)
