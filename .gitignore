@@ -1,3 +1,4 @@
-ProjektTitle/
-koreader/
-install/
+ProjectTitle
+koreader
+install
+*.prompt.md
