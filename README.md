@@ -56,7 +56,7 @@ Limit the number of tags displayed under books in list view.
 <sub>2-pt-limit-tags</sub><br />
 <sup>**Before:** An unlimited number of tags is displayed. **After:** The number of tags is limited (here: to 3).</sup>
 
-### `2-disable-mosaicview-folder-nbitems-overlay.lua`
+### [🞂 2-pt-disable-folder-nbitems-overlay.lua](project-title/2-pt-disable-folder-nbitems-overlay.lua)
 
 Removes the item count from folder overlays in Cover Grid view.
 
@@ -64,7 +64,7 @@ Removes the item count from folder overlays in Cover Grid view.
 |--------|-------|
 | <a href="resources/gridview_folder_itemcount_vanilla.png"><img src="resources/gridview_folder_itemcount_vanilla.png" width="300px"></a> | <a href="resources/gridview_folder_itemcount_patched.png"><img src="resources/gridview_folder_itemcount_patched.png" width="300px"></a> |
 
-<sub>2-disable-mosaicview-folder-nbitems-overlay</sub><br />
+<sub>2-pt-disable-folder-nbitems-overlay</sub><br />
 <sup>**Before:** The number of subdirectories and files is displayed as an overlay at the bottom of the foldercover. **After:** Removed.</sup>
 
 ### [🞂 2-pt-modify-item-limits.lua](project-title/2-pt-modify-item-limits.lua)
