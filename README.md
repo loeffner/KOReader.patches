@@ -95,6 +95,19 @@ If your display settings allow for more space, you can de-/increase the maximum 
 <sub>2-pt-modify-progressbar-max-width</sub><br />
 <sup>**Before:** The progressbar is limited to 235px/705 pages. **After:** The limit is raised.</sup>
 
+### [🞂 2-pt-modify-series-format.lua](project-title/2-pt-modify-series-format.lua)
+Requires Project:Title v3.5
+
+Customize the format of the series in listview.
+The file contains some suggestions, but you have complete freedom to define the format.
+
+| Before | After |
+|--------|-------|
+| <a href="resources/series_vanilla.png"><img src="resources/series_vanilla.png" width="300px"></a><br><a href="resources/series_tags_vanilla.png"><img src="resources/series_tags_vanilla.png" width="300px"></a> | <a href="resources/series_patched_reverse.png"><img src="resources/series_patched_reverse.png" width="300px"></a> <br> <a href="resources/series_patched_vol.png"><img src="resources/series_patched_vol.png" width="300px"></a> <br> <a href="resources/series_patched_bracket.png"><img src="resources/series_patched_bracket.png" width="300px"></a>|
+
+<sub>2-pt-modify-series-format</sub><br />
+<sup>**Before:** The series is formatted as `#1 - Series`. **After:** A variety of formats to select from.</sup>
+
 ## License
 [GNU AGPL v3](https://www.gnu.org/licenses/agpl-3.0.de.html)
 
