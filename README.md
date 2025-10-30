@@ -67,7 +67,7 @@ Removes the item count from folder overlays in Cover Grid view.
 <sub>2-disable-mosaicview-folder-nbitems-overlay</sub><br />
 <sup>**Before:** The number of subdirectories and files is displayed as an overlay at the bottom of the foldercover. **After:** Removed.</sup>
 
-### `2-modify-item-limits.lua`
+### [🞂 2-pt-modify-item-limits.lua](project-title/2-pt-modify-item-limits.lua)
 
 Customize the maximum number of items displayed per page.
 
@@ -76,7 +76,7 @@ Customize the maximum number of items displayed per page.
 | <a href="resources/list_limit_vanilla.png"><img src="resources/list_limit_vanilla.png" width="300px"></a> | <a href="resources/list_limit_patched.png"><img src="resources/list_limit_patched.png" width="300px"></a> |
 | <a href="resources/grid_limit_vanilla.png"><img src="resources/grid_limit_vanilla.png" width="300px"></a> | <a href="resources/grid_limit_patched.png"><img src="resources/grid_limit_patched.png" width="300px"></a> |
 
-<sub>2-modify-item-limits</sub><br />
+<sub>2-pt-modify-item-limits</sub><br />
 <sup>**Before:** The maximum amount of items on a page is limited. **After:** The limit is raised.</sup>
 
 ### [🞂 2-pt-modify-progressbar-max-width.lua](project-title/2-pt-modify-progressbar-max-width.lua)
