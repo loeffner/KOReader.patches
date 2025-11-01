@@ -2,7 +2,9 @@
 
 This repository contains userpatches for customizing KOReader and its plugins.
 
-The patches currently target the [Project: Title](https://github.com/joshuacant/ProjectTitle) plugin, but the repository may expand to include patches for other aspects of KOReader in the future.
+The patches currently target:
+- [Project: Title](https://github.com/joshuacant/ProjectTitle) plugin
+- [Weather](https://github.com/roygbyte/weather.koplugin) plugin
 
 ## Installation
 
@@ -107,6 +109,26 @@ The file contains some suggestions, but you have complete freedom to define the 
 
 <sub>2-pt-modify-series-format</sub><br />
 <sup>**Before:** The series is formatted as `#1 - Series`. **After:** A variety of formats to select from.</sup>
+
+## Weather Patches
+
+### WIP: [🞂 2-weather-lockscreen.lua](weather/2-weather-lockscreen.lua)
+Requires the [Weather](https://github.com/roygbyte/weather.koplugin) plugin.
+
+Display weather conditions as a lockscreen/screensaver with weather icons.
+Can be selected in Settings > Screen > Sleep screen > Wallpaper
+
+<a href="resources/weather_lockscreen.png"><img src="resources/weather_lockscreen.png" width="400px"></a>
+
+**Features:**
+- Shows weather icon based on current conditions
+- SHows weather forecast for same day and the next day
+
+**Setup Requirements:**
+- Weather plugin must be installed and configured (postal code, API key)
+- Weather icon files (sun.svg & moon.svg) must be placed in `koreader/icons/` on your device
+- Enable patch in Patch Management, then select "Weather" in Sleep screen > Wallpaper menu
+- See [weather/README.md](weather/README.md)
 
 ## License
 [GNU AGPL v3](https://www.gnu.org/licenses/agpl-3.0.de.html)
