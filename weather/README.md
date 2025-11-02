@@ -1,11 +1,8 @@
 ## Weather patches
-I am currently working on these patches.
 
-There are a few [minor issues](https://github.com/roygbyte/weather.koplugin/pull/1) with the weather plugin that I would like to resolve before releasing.
+There are a few [minor issues](https://github.com/roygbyte/weather.koplugin/pull/1) with the weather plugin, but this patch should still work.
 
 ### [🞂 2-weather-lockscreen.lua](2-weather-lockscreen.lua)
-
-
 Requires the [Weather](https://github.com/roygbyte/weather.koplugin) plugin.
 
 Display weather conditions as a lockscreen/screensaver with weather icons.
@@ -20,6 +17,8 @@ Can be selected in Settings > Screen > Sleep screen > Wallpaper
 ### Installation
 
 See the [KOReader documentation](https://koreader.rocks/user_guide/#L2-userpatches) for more information.
+
+0. **Install the [Weather](https://github.com/roygbyte/weather.koplugin) plugin**
 
 1. **Create a directory named patches under koreader directory on your device**
 
