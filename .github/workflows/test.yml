@@ -1,0 +1,59 @@
+name: Test Userpatches
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  syntax-check:
+    name: Lua Syntax Validation
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Install Lua
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lua5.1
+      
+      - name: Check Lua syntax
+        run: |
+          echo "Checking Lua syntax for all patch files..."
+          FAILED=0
+          
+          while IFS= read -r file; do
+            echo "Checking $file..."
+            if ! luac -p "$file"; then
+              echo "❌ Syntax error in $file"
+              FAILED=1
+            else
+              echo "✓ $file passed"
+            fi
+          done < <(find . -name "*.lua" -type f -not -path "./.git/*")
+          
+          if [ $FAILED -eq 1 ]; then
+            echo "Some files failed syntax check"
+            exit 1
+          fi
+          
+          echo "✅ All Lua files passed syntax check!"
+      
+      - name: Check for common issues
+        run: |
+          echo "Checking for common userpatch issues..."
+          
+          # Check for proper userpatch module usage
+          if grep -r "userpatch\." --include="*.lua" .; then
+            echo "✓ Found userpatch module usage"
+          fi
+          
+          # Warn about potential global pollution
+          if grep -r "^[^-]*function [A-Z]" --include="*.lua" . | grep -v "local"; then
+            echo "⚠️  Warning: Found non-local global functions (may cause conflicts)"
+          fi
+          
+          echo "✅ Basic checks completed"
