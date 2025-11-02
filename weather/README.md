@@ -12,7 +12,7 @@ Can be selected in Settings > Screen > Sleep screen > Wallpaper
 
 **Features:**
 - Shows weather icon based on current conditions
-- SHows weather forecast for same day and the next day
+- Shows weather forecast for same day and the next day
 
 ### Installation
 

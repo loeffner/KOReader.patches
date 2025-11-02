@@ -42,7 +42,7 @@ There are screenshots and descriptions [here](weather/README.md).
 
 It contains:
 
-- WIP: [🞂 2-weather-lockscreen.lua](weather/2-weather-lockscreen.lua)
+- [🞂 2-weather-lockscreen.lua](weather/2-weather-lockscreen.lua)
 
 ## License
 [GNU AGPL v3](https://www.gnu.org/licenses/agpl-3.0.de.html)
