@@ -204,7 +204,7 @@ local function patchWeather(weather_plugin)
                 temperature = temperature,
                 condition = condition,
                 location = result.location and result.location.name or nil,
-                timestamp = os.date("%Y-%m-%d %H:%M"),
+                timestamp = result.location and result.location.localtime or os.date("%Y-%m-%d %H:%M"),
             }
 
             -- Extract hourly data for today and tomorrow
