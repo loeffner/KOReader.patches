@@ -19,6 +19,7 @@
     -- vvvvvvvvvvvvvvvvvvvvvvvvvvv-Modify here-vvvvvvvvvvvvvvvvvvvvvvvvvvvvv -
 
 local HIDE_NBITEMS_OVERLAY = true
+local HIDE_NAME_OVERLAY = false
 
     -- ^^^^^^^^^^^^^^^^^^^^^^^^^^^-Modify here-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -
 
@@ -40,7 +41,7 @@ local function patchCoverBrowser(plugin)
         orig_MosaicMenuItem_update(self)
 
         -- If this is a directory and hiding is enabled, remove the nbitems widget
-        if self.is_directory and HIDE_NBITEMS_OVERLAY then
+        if self.is_directory and (HIDE_NBITEMS_OVERLAY or HIDE_NAME_OVERLAY) then
             local widget_parts = self._underline_container[1][1]
 
             -- widget_parts is an OverlapGroup that contains:
@@ -49,13 +50,22 @@ local function patchCoverBrowser(plugin)
             -- 3. BottomContainer with nbitems (if show_name_grid_folders is true)
 
             -- We want to remove the BottomContainer (the third element)
-            if widget_parts and #widget_parts >= 3 then
+            if HIDE_NBITEMS_OVERLAY and widget_parts and #widget_parts >= 3 then
                 -- Free the widget to avoid memory leaks
                 if widget_parts[3] and widget_parts[3].free then
                     widget_parts[3]:free()
                 end
                 -- Remove it from the widget tree
                 table.remove(widget_parts, 3)
+            end
+            -- We want to remove the TopContainer (the second element)
+            if HIDE_NAME_OVERLAY and widget_parts and #widget_parts >= 2 then
+                -- Free the widget to avoid memory leaks
+                if widget_parts[2] and widget_parts[2].free then
+                    widget_parts[2]:free()
+                end
+                -- Remove it from the widget tree
+                table.remove(widget_parts, 2)
             end
         end
     end
