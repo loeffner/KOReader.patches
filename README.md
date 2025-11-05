@@ -4,7 +4,8 @@ This repository contains userpatches for customizing KOReader and its plugins.
 
 The patches currently target:
 - [Project: Title](https://github.com/joshuacant/ProjectTitle) plugin
-- [Weather](https://github.com/roygbyte/weather.koplugin) plugin
+
+**Note:** The weather lockscreen patch has been converted to a standalone plugin: [loeffner/WeatherLockscreen](https://github.com/loeffner/WeatherLockscreen)
 
 ## Installation
 
@@ -36,14 +37,14 @@ It contains:
 - [🞂 2-pt-modify-series-format.lua](project-title/2-pt-modify-series-format.lua)
 
 
-## [Weather Patches](weather)
-This folder contains various patches to tweak the [Weather](https://github.com/roygbyte/weather.koplugin) plugin.
+## Weather Lockscreen Plugin
 
-There are screenshots and descriptions [here](weather/README.md).
+**The Weather Lockscreen patch has been converted to a standalone plugin and moved to its own repository:**
 
-It contains:
+### **[loeffner/WeatherLockscreen](https://github.com/loeffner/WeatherLockscreen)** 🌤️
 
-- [🞂 2-weather-lockscreen.lua](weather/2-weather-lockscreen.lua)
+This is now a full-featured KOReader plugin that displays beautiful weather information on your sleep screen, with multiple display formats and easy configuration - no need to edit source code!
+
 
 ## License
 [GNU AGPL v3](https://www.gnu.org/licenses/agpl-3.0.de.html)
@@ -64,7 +65,7 @@ Feel free to contact me if you have questions or suggestions.
 - [KOReader](https://github.com/koreader/koreader)
 - [KOReader Userpatches Documentation](https://github.com/koreader/koreader/wiki/User-patches)
 - [Project: Title](https://github.com/joshuacant/ProjectTitle)
-- [Weather](https://github.com/roygbyte/weather.koplugin)
+- [WeatherLockscreen Plugin](https://github.com/loeffner/WeatherLockscreen) - Standalone weather lockscreen plugin
 
 ### More User Patches
 - [joshuacant/KOReader.patches](https://github.com/joshuacant/KOReader.patches)
