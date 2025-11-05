@@ -50,6 +50,14 @@ Removes the item count from folder overlays in Cover Grid view.
 <sub>2-pt-disable-folder-nbitems-overlay</sub><br />
 <sup>**Before:** The number of subdirectories and files is displayed as an overlay at the bottom of the foldercover. **After:** Removed.</sup>
 
+### [🞂 2-pt-disable-folder-image-search.lua](2-pt-disable-folder-image-search.lua)
+
+Disables searching for folder cover images (cover.jpg, folder.png, etc.) and forces Project: Title to build folder thumbnails from book covers only.
+
+By default, Project: Title first searches for dedicated folder cover images before falling back to building covers from book thumbnails. \
+This patch skips the image file search entirely. \
+If you do not intend to provide your own images, this will speed up turning pages in filebrowser (with lots of folders) significantly.
+
 ### [🞂 2-pt-modify-item-limits.lua](2-pt-modify-item-limits.lua)
 Requires Project:Title v3.5
 

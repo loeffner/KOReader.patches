@@ -30,6 +30,7 @@ It contains:
 - [🞂 2-pt-disable-progress-string.lua](project-title/2-pt-disable-progress-string.lua)
 - [🞂 2-pt-limit-tags.lua](project-title/2-pt-limit-tags.lua)
 - [🞂 2-pt-disable-folder-nbitems-overlay.lua](project-title/2-pt-disable-folder-nbitems-overlay.lua)
+- [🞂 2-pt-disable-folder-image-search.lua](project-title/2-pt-disable-folder-image-search.lua)
 - [🞂 2-pt-modify-item-limits.lua](project-title/2-pt-modify-item-limits.lua)
 - [🞂 2-pt-modify-progressbar-max-width.lua](project-title/2-pt-modify-progressbar-max-width.lua)
 - [🞂 2-pt-modify-series-format.lua](project-title/2-pt-modify-series-format.lua)
