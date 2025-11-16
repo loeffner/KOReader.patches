@@ -28,6 +28,23 @@ See the [KOReader documentation](https://koreader.rocks/user_guide/#L2-userpatch
 
 This is now a full-featured KOReader plugin that displays beautiful weather information on your sleep screen, with multiple display formats and easy configuration - no need to edit source code!
 
+### [🞂 2-weather-detailed-view-hours.lua](weather-lockscreen/2-weather-detailed-view-hours.lua)
+Requires WeatherLockscreen v0.9.2-beta.1
+
+The Patch allows you to modify the hours that are shown in the detailed display.
+
+<details>
+<summary>See Screenshots </summary>
+
+| Before | After |
+|--------|-------|
+| <a href="resources/weather_lockscreen_detailed_hours_vanilla.png"><img src="resources/weather_lockscreen_detailed_hours_vanilla.png" width="300px"></a> | <a href="resources/weather_lockscreen_detailed_hours_patched.png"><img src="resources/weather_lockscreen_detailed_hours_patched.png" width="300px"></a> |
+
+<sub>2-weather-detailed-view-hours</sub><br />
+<sup>**Before:** The shown hours are 6am, 12pm, 6pm. **After:** User defined hour are shown.</sup>
+</details>
+
+
 ## [Project: Title Patches](project-title)
 This folder contains various patches to tweak the already awesome [Project: Title](https://github.com/joshuacant/ProjectTitle) plugin.
 
@@ -104,7 +121,7 @@ Disables searching for folder cover images (cover.jpg, folder.png, etc.) and for
 
 By default, Project: Title first searches for dedicated folder cover images before falling back to building covers from book thumbnails. \
 This patch skips the image file search entirely. \
-If you do not intend to provide your own images, this will speed up turning pages in filebrowser (with lots of folders) significantly.
+If you do not intend to provide your own images, this will speed up turning pages in filebrowser (with lots of folders) slightly.
 </details>
 
 ### [🞂 2-pt-modify-item-limits.lua](project-title/2-pt-modify-item-limits.lua)

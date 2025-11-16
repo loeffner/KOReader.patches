@@ -1,6 +1,6 @@
 --[[
     This user patch is for use with the Weather Lockscreen plugin.
-    It requires WeatherLockscreen v0.9.2-beta.2
+    It requires WeatherLockscreen v0.9.2-beta.1
 
     The Patch allows you to modify the hours that are shown in the detailed display.
 
