@@ -28,6 +28,8 @@ See the [KOReader documentation](https://koreader.rocks/user_guide/#L2-userpatch
 
 This is now a full-featured KOReader plugin that displays beautiful weather information on your sleep screen, with multiple display formats and easy configuration - no need to edit source code!
 
+## [Weather Lockscreen patches](weather-lockscreen)
+
 ### [🞂 2-weather-detailed-view-hours.lua](weather-lockscreen/2-weather-detailed-view-hours.lua)
 Requires WeatherLockscreen v0.9.2-beta.1
 
@@ -46,11 +48,6 @@ The Patch allows you to modify the hours that are shown in the detailed display.
 
 
 ## [Project: Title Patches](project-title)
-This folder contains various patches to tweak the already awesome [Project: Title](https://github.com/joshuacant/ProjectTitle) plugin.
-
-There are screenshots and descriptions [here](project-title/README.md).
-
-It contains:
 
 ### [🞂 2-pt-modify-font-sizes.lua](project-title/2-pt-modify-font-sizes.lua)
 Requires Project:Title v3.5
@@ -148,6 +145,7 @@ Requires Project:Title v3.5
 
 Increase the maximum progress bar width for longer books.
 If your display settings allow for more space, you can de-/increase the maximum width of the progress bars.
+Alternatively, you can change how many pages the progress bar represents by in/decreasing its resolution.
 
 <details>
 <summary>See Screenshots </summary>
