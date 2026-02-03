@@ -18,12 +18,7 @@
 -- vvvvvvvvvvvvvvvvvvvvvvvvvvv-Modify here-vvvvvvvvvvvvvvvvvvvvvvvvvvvvv -
 
 local HIDE_PROGRESS_STRING = true
--- Progress strings to filter (English & German - localized versions may vary)
-local PROGRESS_STRINGS = {
-    "New", "Reading", "Finished", "On hold",
-    "Neu", "Lesen", "Beendet", "Zurückgestellt",
-    -- Add localized versions here if needed
-}
+
 -- ^^^^^^^^^^^^^^^^^^^^^^^^^^^-Modify here-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -
 
 
@@ -31,6 +26,12 @@ local userpatch = require("userpatch")
 
 local function patchCoverBrowser(plugin)
     local listmenu = require("listmenu")
+    local _ = require("l10n.gettext")
+
+    local PROGRESS_STRINGS = {
+        _("Finished"), _("On hold"), _("Reading"), _("New")
+    }
+
     local ListMenuItem = userpatch.getUpValue(listmenu._updateItemsBuildUI, "ListMenuItem")
 
     if not ListMenuItem then
