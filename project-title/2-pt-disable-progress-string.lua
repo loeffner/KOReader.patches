@@ -27,8 +27,6 @@ local userpatch = require("userpatch")
 local function patchCoverBrowser(plugin)
     local listmenu = require("listmenu")
     local _ = require("l10n.gettext")
-    local N_ = _.ngettext
-    local T = require("ffi/util").template
 
     local PROGRESS_STRINGS = {
         _("Finished"), _("On hold"), _("Reading"), _("New")
