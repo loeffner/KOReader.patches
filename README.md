@@ -185,6 +185,26 @@ By default, each cover keeps its own aspect ratio, so covers end up with differe
 This patch stretches all covers to the grid cell instead (stretched, not cropped). \
 If covers look too distorted, lower `STRETCH_RATIO` (e.g. to 0.8-0.9) to make them narrower.
 
+<details>
+<summary>See Screenshots </summary>
+
+| Before | After |
+|--------|-------|
+| <a href="resources/cover_sizes_vanilla.png"><img src="resources/cover_sizes_vanilla.png" width="300px"></a> | <a href="resources/cover_sizes_patched.png"><img src="resources/cover_sizes_patched.png" width="300px"></a> |
+
+<sub>2-pt-uniform-cover-size</sub><br />
+<sup>**Before:** Each cover keeps its own aspect ratio, so the covers have different sizes. **After:** All covers fill the grid cell and have the same size.</sup>
+</details>
+
+### [🞂 2-pt-recent-books-first.lua](project-title/2-pt-recent-books-first.lua)
+
+Requires Project:Title master (without the built-in Library mode)
+
+Bring back "Show opened books first" from the old Library mode.
+Project: Title replaced its Library mode with KOReader's "Show all files from subfolders" option (long-press the Project: Title logo to toggle it). \
+This patch moves the books you are currently reading to the front of that list and marks them with the black separator line / underline, like before. \
+Optionally, the recent books can be sorted by last read date, or the patch can be applied to every folder instead of only the library view.
+
 ## License
 [GNU AGPL v3](https://www.gnu.org/licenses/agpl-3.0.de.html)
 
