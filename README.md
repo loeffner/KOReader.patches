@@ -176,6 +176,15 @@ The file contains some suggestions, but you have complete freedom to define the 
 <sup>**Before:** The series is formatted as `#1 - Series`. **After:** A variety of formats to select from.</sup>
 </details>
 
+### [🞂 2-pt-uniform-cover-size.lua](project-title/2-pt-uniform-cover-size.lua)
+
+Requires Project:Title v3.8
+
+Draw every cover in the cover grid at the same size.
+By default, each cover keeps its own aspect ratio, so covers end up with different sizes. \
+This patch stretches all covers to the grid cell instead (stretched, not cropped). \
+If covers look too distorted, lower `STRETCH_RATIO` (e.g. to 0.8-0.9) to make them narrower.
+
 ## License
 [GNU AGPL v3](https://www.gnu.org/licenses/agpl-3.0.de.html)
 
