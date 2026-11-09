@@ -1,6 +1,6 @@
 --[[
     This user patch is for use with the Project: Title plugin.
-    It requires v3.5.
+    It requires v3.8.
 
     This patch disables the search for folder cover images (like cover.jpg,
     folder.png, etc.) in directories, forcing Project: Title to only use

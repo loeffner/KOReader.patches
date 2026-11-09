@@ -1,6 +1,6 @@
 --[[
     This user patch is for use with the Project: Title plugin.
-    It is tested with v3.5, but might work with earlier versions.
+    It requires v3.8.
 
     The Patch allows you remove the item count overlay for directories
     in the cover grid view.

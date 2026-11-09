@@ -34,7 +34,7 @@ The former `2-weather-today-tomorrow-view-hours.lua` patch is no longer needed: 
 ## [Project: Title Patches](project-title)
 
 ### [🞂 2-pt-modify-font-sizes.lua](project-title/2-pt-modify-font-sizes.lua)
-Requires Project:Title v3.5
+Requires Project:Title v3.8
 
 Customize font sizes for titles, authors, and metadata in list view. \
 I use this patch to disable the auto-sizing and make the strings look more uniform
@@ -53,6 +53,9 @@ by setting maximum and minimum font sizes to the same value.
 </details>
 
 ### [🞂 2-pt-disable-progress-string.lua](project-title/2-pt-disable-progress-string.lua)
+
+Requires Project:Title v3.8
+
 Removes the reading status text (New/Reading/Finished/On hold) from list view.
 Attention: If you are using a different localization than english (or german), you will have to adapt the patch and add the strings in your language.
 
@@ -68,7 +71,7 @@ Attention: If you are using a different localization than english (or german), y
 </details>
 
 ### [🞂 2-pt-limit-tags.lua](project-title/2-pt-limit-tags.lua)
-Requires Project:Title v3.5
+Requires Project:Title v3.8
 
 <details>
 <summary>See Screenshots </summary>
@@ -84,6 +87,8 @@ Limit the number of tags displayed under books in list view.
 
 ### [🞂 2-pt-disable-folder-nbitems-overlay.lua](project-title/2-pt-disable-folder-nbitems-overlay.lua)
 
+Requires Project:Title v3.8
+
 Removes the item count from folder overlays in Cover Grid view.
 
 <details>
@@ -98,6 +103,8 @@ Removes the item count from folder overlays in Cover Grid view.
 
 ### [🞂 2-pt-disable-folder-image-search.lua](project-title/2-pt-disable-folder-image-search.lua)
 
+Requires Project:Title v3.8
+
 Disables searching for folder cover images (cover.jpg, folder.png, etc.) and forces Project: Title to build folder thumbnails from book covers only.
 
 By default, Project: Title first searches for dedicated folder cover images before falling back to building covers from book thumbnails. \
@@ -107,7 +114,7 @@ If you do not intend to provide your own images, this will speed up turning page
 
 ### [🞂 2-pt-modify-item-limits.lua](project-title/2-pt-modify-item-limits.lua)
 
-Requires Project:Title v3.5
+Requires Project:Title v3.8
 
 Customize the maximum number of items displayed per page.
 
@@ -125,7 +132,7 @@ Customize the maximum number of items displayed per page.
 
 ### [🞂 2-pt-modify-progressbar-max-width.lua](project-title/2-pt-modify-progressbar-max-width.lua)
 
-Requires Project:Title v3.5
+Requires Project:Title v3.8
 
 Increase the maximum progress bar width for longer books.
 If your display settings allow for more space, you can de-/increase the maximum width of the progress bars.
@@ -144,7 +151,7 @@ Alternatively, you can change how many pages the progress bar represents by in/d
 
 ### [🞂 2-pt-modify-series-format.lua](project-title/2-pt-modify-series-format.lua)
 
-Requires Project:Title v3.5
+Requires Project:Title v3.8
 
 Customize the format of the series in listview.
 The file contains some suggestions, but you have complete freedom to define the format.
@@ -182,7 +189,7 @@ If covers look too distorted, lower `STRETCH_RATIO` (e.g. to 0.8-0.9) to make th
 
 ### [🞂 2-pt-recent-books-first.lua](project-title/2-pt-recent-books-first.lua)
 
-Requires Project:Title master (without the built-in Library mode)
+Requires Project:Title master (unreleased as of 09 Nov 2026)
 
 Bring back "Show opened books first" from the old Library mode.
 Project: Title replaced its Library mode with KOReader's "Show all files from subfolders" option (long-press the Project: Title logo to toggle it). \

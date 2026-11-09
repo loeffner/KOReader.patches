@@ -1,6 +1,6 @@
 --[[
     This user patch is primarily for use with the Project: Title plugin. It requires
-    Project: Title v3.5 or higher.
+    Project: Title v3.8 or higher.
 
     It replaces a button in the top toolbar.
 

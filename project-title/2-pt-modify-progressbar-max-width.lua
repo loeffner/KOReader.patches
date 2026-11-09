@@ -1,6 +1,6 @@
 --[[
     This user patch is for use with the Project: Title plugin.
-    It requires v3.5.
+    It requires v3.8.
 
     The Patch allows you to modify the maximum progress bar width.
 
