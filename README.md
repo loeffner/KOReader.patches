@@ -28,23 +28,7 @@ See the [KOReader documentation](https://koreader.rocks/user_guide/#L2-userpatch
 
 This is now a full-featured KOReader plugin that displays beautiful weather information on your sleep screen, with multiple display formats and easy configuration - no need to edit source code!
 
-## [Weather Lockscreen patches](weather-lockscreen)
-
-### [🞂 2-weather-today-tomorrow-view-hours.lua](weather-lockscreen/2-weather-today-tomorrow-view-hours.lua)
-Requires WeatherLockscreen v0.9.2-beta.1
-
-The Patch allows you to modify the hours that are shown in the "Today & Tomorrow" display and the "Today" display.
-
-<details>
-<summary>See Screenshots </summary>
-
-| Before | After |
-|--------|-------|
-| <a href="resources/weather_lockscreen_detailed_hours_vanilla.png"><img src="resources/weather_lockscreen_detailed_hours_vanilla.png" width="300px"></a> | <a href="resources/weather_lockscreen_detailed_hours_patched.png"><img src="resources/weather_lockscreen_detailed_hours_patched.png" width="300px"></a> |
-
-<sub>2-weather-today-tomorrow-view-hours</sub><br />
-<sup>**Before:** The shown hours are 6am, 12pm, 6pm. **After:** User defined hour are shown.</sup>
-</details>
+The former `2-weather-today-tomorrow-view-hours.lua` patch is no longer needed: since v0.9.7 the shown hours can be selected directly in the plugin settings (Display style → Forecast hours shown).
 
 
 ## [Project: Title Patches](project-title)
