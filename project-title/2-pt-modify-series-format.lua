@@ -58,4 +58,4 @@ local function patchCoverBrowser(plugin)
   end
 end
 
-userpatch.registerPatchPluginFunc("coverbrowser", patchCoverBrowser)
+userpatch.registerPatchPluginFunc("projecttitle", patchCoverBrowser)

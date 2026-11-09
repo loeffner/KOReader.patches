@@ -48,4 +48,4 @@ local function patchCoverBrowser(plugin)
     ptutil.grid_defaults.default_rows = GRID_DEFAULT_ROWS
 end
 
-userpatch.registerPatchPluginFunc("coverbrowser", patchCoverBrowser)
+userpatch.registerPatchPluginFunc("projecttitle", patchCoverBrowser)

@@ -30,4 +30,4 @@ local function patchCoverBrowser(plugin)
     ptutil.list_defaults.tags_limit = TAGS_LIMIT
 end
 
-userpatch.registerPatchPluginFunc("coverbrowser", patchCoverBrowser)
+userpatch.registerPatchPluginFunc("projecttitle", patchCoverBrowser)

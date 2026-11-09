@@ -62,4 +62,4 @@ local function patchCoverBrowser(plugin)
     ptutil.grid_defaults.dir_font_min = GRID_DIR_FONT_MIN
 end
 
-userpatch.registerPatchPluginFunc("coverbrowser", patchCoverBrowser)
+userpatch.registerPatchPluginFunc("projecttitle", patchCoverBrowser)

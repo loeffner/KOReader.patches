@@ -47,4 +47,4 @@ local function patchCoverBrowser(plugin)
     ptutil.grid_defaults.progress_bar_max_size = PROGRESS_BAR_MAX_SIZE_GRID
 end
 
-userpatch.registerPatchPluginFunc("coverbrowser", patchCoverBrowser)
+userpatch.registerPatchPluginFunc("projecttitle", patchCoverBrowser)
